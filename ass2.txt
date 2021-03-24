@@ -1,0 +1,13 @@
+//Convert all the strings to title caps in a string array
+
+let show = function () {
+    var arr = "MEGHA";
+    console.log(arr.toLowerCase());
+};
+
+show();
+
+
+(function(arr) {
+    console.log(arr.toLowerCase());
+})("MEGHA");
